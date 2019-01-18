@@ -1,0 +1,7 @@
+﻿{
+  "Language": "csharp",
+  "Plugins": [
+    "html-report",
+    "screenshot"
+  ]
+}
