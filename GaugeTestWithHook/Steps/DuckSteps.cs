@@ -20,10 +20,10 @@ namespace GaugeTestWithHook
             _driver.Navigate().GoToUrl(url);
         }
 
-        [Step("Click to search Field")]
-        public void ClickToSearchField()
+        [Step("Search in Field <str>")]
+        public void ClickToSearchField(string str)
         {
-            _driver.FindElement(By.Id("search_form_input_homepage")).SendKeys("c#");
+            _driver.FindElement(By.Id("search_form_input_homepage")).SendKeys(str);
         }
 
         [Step("Click to button search")]

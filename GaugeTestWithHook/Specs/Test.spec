@@ -6,7 +6,7 @@ Test1
 -----------------
 tags: testescenario1
 * Go to "https://duckduckgo.com/"
-* Click to search Field
+* Search in Field "C#"
 * Click to button search
 * Click first link
 * Check title text "C# Guide" exist
